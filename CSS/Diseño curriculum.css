@@ -1,0 +1,60 @@
+h1{
+      color: red;
+}   
+body {
+    background-color: lightblue;
+  }
+#FotoPerfil  {
+          height: 300px; width: 250px;
+          display: block;
+          margin: auto;
+          border-radius: 50%;
+          
+}
+div{
+  text-align: center;
+}
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    left: -200px;
+    transition: all 500ms linear; 
+  }
+
+#sidebar.active{
+  left: 0;
+}
+  #sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    
+  }
+
+  #sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  #sidebar div{
+    text-align: justify;
+  }
+  #sidebar .Descarga{
+    padding: 5px;
+    text-align: center;
+    
+  }
